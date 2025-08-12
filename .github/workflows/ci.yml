@@ -69,6 +69,9 @@ jobs:
         with:
           node-version: '22' # Or the version you use locally
 
+      - name: Install JavaScript dependencies
+        run: npm ci  
+
       - name: Run tests
         env:
           RAILS_ENV: test
