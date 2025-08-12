@@ -64,6 +64,11 @@ jobs:
           ruby-version: .ruby-version
           bundler-cache: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22' # Or the version you use locally
+
       - name: Run tests
         env:
           RAILS_ENV: test
