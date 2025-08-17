@@ -9,5 +9,10 @@
     "@hotwired/turbo-rails": "^8.0.16",
     "webpack": "^5.101.1",
     "webpack-cli": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0"
   }
 }
