@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 
 const Start = () => {
-  return <h1>Hello from React!</h1>;
+  return( <h1>Hello from React!</h1>);
 };
 
 document.addEventListener('DOMContentLoaded', () => {
